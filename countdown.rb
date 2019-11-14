@@ -8,11 +8,11 @@ while num > 0
 end
 
 def countdown_with_sleep(num_secs)
-    date1 = Time.now + seconds
-  while Time.now < date1
-    t = Time.at(date1.to_i - Time.now.to_i)
-    p t.strftime('%H:%M:%S')
-    sleep 1
+   date1 = Time.now + 5 # your time here
+while Time.now < date1
+  t = Time.at(date1.to_i - Time.now.to_i)
+  p t.strftime('%H:%M:%S')
+  sleep 1
  
  
  
